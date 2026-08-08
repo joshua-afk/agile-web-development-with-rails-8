@@ -16,7 +16,7 @@ Sub-headers are recorded per commit as a `Book-Ref` trailer, for example
 | Ch | Title | Tag | Notes |
 |----|-------|-----|-----|
 | 1 | Installing Rails | _N/A_ | Env Setup |
-| 2 | Instant Gratification | | |
+| 2 | Instant Gratification | [ch02](https://github.com/joshua-afk/agile-web-development-with-rails-8/tree/ch02) | |
 
 
 ---------------------------------------------
