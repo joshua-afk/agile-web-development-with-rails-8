@@ -1,0 +1,20 @@
+<h1>Playtime!</h1>
+
+<p>
+  Addition: 1 + 2 = <%= 1+2 %>
+</p>
+
+<p>
+  Concatenation: "cow" + "boy" = <%= "cow" + "boy" %>
+</p>
+
+<p>
+  Time in one hour: <%= 1.hour.from_now.localtime %>
+</p>
+
+<h3>List of files & iteration over a collection:</h3>
+<p>
+  <% @files.each do | file | %>
+    File name is: <%= file %><br>
+  <% end %>
+</p>

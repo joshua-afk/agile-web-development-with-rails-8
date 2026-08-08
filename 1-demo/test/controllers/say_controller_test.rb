@@ -10,4 +10,9 @@ class SayControllerTest < ActionDispatch::IntegrationTest
     get say_goodbye_url
     assert_response :success
   end
+
+  test "should get playtime" do
+    get say_playtime_url
+    assert_response :success
+  end
 end
